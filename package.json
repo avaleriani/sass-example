@@ -10,5 +10,13 @@
     "test"
   ],
   "author": "Agustin Valeriani",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-sass": "2.2.0",
+    "gulp-cssnano": "^2.1.0",
+    "imagemin": "master"
+  },
+  "dependencies": {
+  }
 }

@@ -1,0 +1,15 @@
+.jumbotron {
+  padding-top: 370px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  background-color: transparent;
+  &__title {
+    margin-top: 30px;
+    font-size: 48px;
+    font-family: 'SohoGothicPro-Medium', serif;
+    padding-bottom: 40px;
+  }
+  &__green {
+    color: $color-green;
+  }
+}

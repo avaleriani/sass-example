@@ -1,0 +1,30 @@
+.services {
+  max-width: 825px;
+  &__title {
+    font-size: 34px;
+    font-family: 'SohoGothicPro-Light', serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 25px;
+  }
+  &__message {
+    margin: auto;
+    font-family: 'ProximaNovaA-Regular', serif;
+    font-size: 16px;
+  }
+  &__options {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 90px;
+  }
+
+  &__option-text {
+    font-family: 'SohoGothicPro-Medium', serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: $color-light-grey;
+    margin-top: 15px;
+  }
+}

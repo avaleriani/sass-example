@@ -1,0 +1,30 @@
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  color: #ffffff;
+}
+
+#header {
+  min-height: 560px;
+  border-bottom: 8px solid $color-green;
+  background-image: url("../images/top-bg.jpg");
+  background-size: cover;
+}
+
+#services {
+  background-image: url("../images/services-bg.jpg");
+  background-size: cover;
+  border-bottom: 3px solid $color-green;
+}
+
+#athome {
+  background-image: url("../images/athome-bg.jpg");
+  background-size: cover;
+  min-height:278px;
+}
